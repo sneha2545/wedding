@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1f0a"/>
+      <stop offset="1" stop-color="#1a0d04"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="40%" r="55%">
+      <stop offset="0" stop-color="#ffd791" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldStroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c89649" stop-opacity="0.0"/>
+      <stop offset="0.5" stop-color="#f1d490" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#c89649" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#halo)"/>
+  <g transform="translate(400 500)" fill="none" stroke="url(#goldStroke)" stroke-width="1.4">
+    <rect x="-260" y="-340" width="520" height="680" rx="14" opacity="0.7"/>
+    <rect x="-246" y="-326" width="492" height="652" rx="10" opacity="0.4"/>
+    <path d="M -260 -250 L 260 -250" opacity="0.5"/>
+    <path d="M -260 250 L 260 250" opacity="0.5"/>
+    <circle cx="0" cy="-340" r="8" fill="#f1d490"/>
+    <circle cx="0" cy="340" r="8" fill="#f1d490"/>
+    <circle cx="-260" cy="0" r="6" fill="#f1d490"/>
+    <circle cx="260" cy="0" r="6" fill="#f1d490"/>
+  </g>
+  <g transform="translate(400 580)" fill="#2a1608">
+    <path d="M -130 -40 C -160 -110 -100 -200 -50 -200 C 0 -200 40 -160 40 -100 C 40 -50 20 -10 0 -10 C -30 -10 -90 20 -110 80 C -140 150 -160 240 -160 320 L 80 320 C 90 240 90 150 60 80 C 40 20 10 -10 0 -60 C -10 -120 -60 -140 -90 -110 Z" opacity="0.9"/>
+    <path d="M 100 -60 C 100 -130 160 -220 210 -220 C 260 -220 300 -170 300 -110 C 300 -60 270 -20 240 -20 C 220 -20 200 -10 190 30 C 180 100 200 220 205 320 L 320 320 C 320 220 310 100 295 30 C 280 -20 260 -50 250 -100 C 240 -160 200 -190 170 -160 C 140 -130 110 -100 100 -60 Z" opacity="0.9"/>
+  </g>
+  <g transform="translate(400 940)" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif">
+    <text fill="#d8b069" font-size="20" letter-spacing="5">YOUR COUPLE PORTRAIT</text>
+  </g>
+</svg>

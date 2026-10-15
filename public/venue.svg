@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c478"/>
+      <stop offset="0.45" stop-color="#d89645"/>
+      <stop offset="1" stop-color="#5a3010"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4a18"/>
+      <stop offset="1" stop-color="#2a1608"/>
+    </linearGradient>
+    <linearGradient id="dome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0a85a"/>
+      <stop offset="1" stop-color="#8c5f24"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8a060"/>
+      <stop offset="1" stop-color="#6a461b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#sky)"/>
+  <rect y="500" width="1200" height="300" fill="url(#ground)"/>
+  <circle cx="900" cy="220" r="60" fill="#ffe2a4" opacity="0.85"/>
+  <circle cx="900" cy="220" r="100" fill="#ffd791" opacity="0.25"/>
+  <g fill="#8c5f24" opacity="0.65">
+    <rect x="60" y="380" width="180" height="120"/>
+    <path d="M 60 380 L 150 320 L 240 380 Z"/>
+    <rect x="280" y="350" width="120" height="150"/>
+    <path d="M 280 350 L 340 290 L 400 350 Z"/>
+    <rect x="900" y="370" width="160" height="130"/>
+    <path d="M 900 370 L 980 310 L 1060 370 Z"/>
+  </g>
+  <g>
+    <ellipse cx="600" cy="320" rx="180" ry="140" fill="url(#dome)"/>
+    <rect x="540" y="280" width="120" height="80" fill="url(#dome)"/>
+    <circle cx="600" cy="170" r="14" fill="#f1d490"/>
+    <path d="M 600 160 L 595 145 L 600 135 L 605 145 Z" fill="#f1d490"/>
+    <ellipse cx="380" cy="370" rx="100" ry="80" fill="url(#dome)"/>
+    <ellipse cx="820" cy="370" rx="100" ry="80" fill="url(#dome)"/>
+    <rect x="100" y="430" width="1000" height="100" fill="url(#wall)"/>
+    <rect x="100" y="430" width="1000" height="20" fill="#a87535"/>
+    <g fill="#3a1f0a">
+      <path d="M 250 530 L 250 460 Q 280 420 310 460 L 310 530 Z"/>
+      <path d="M 400 530 L 400 460 Q 430 420 460 460 L 460 530 Z"/>
+      <path d="M 550 530 L 550 440 Q 600 380 650 440 L 650 530 Z"/>
+      <path d="M 720 530 L 720 460 Q 750 420 780 460 L 780 530 Z"/>
+      <path d="M 870 530 L 870 460 Q 900 420 930 460 L 930 530 Z"/>
+    </g>
+    <rect x="120" y="370" width="40" height="180" fill="url(#wall)"/>
+    <ellipse cx="140" cy="370" rx="22" ry="30" fill="url(#dome)"/>
+    <rect x="1040" y="370" width="40" height="180" fill="url(#wall)"/>
+    <ellipse cx="1060" cy="370" rx="22" ry="30" fill="url(#dome)"/>
+  </g>
+  <path d="M 0 530 L 1200 530 L 1200 800 L 0 800 Z" fill="#3a1f0a" opacity="0.5"/>
+  <g fill="#f1d490" opacity="0.5">
+    <circle cx="200" cy="700" r="3"/>
+    <circle cx="400" cy="740" r="2"/>
+    <circle cx="800" cy="720" r="2.5"/>
+    <circle cx="1000" cy="760" r="2"/>
+  </g>
+  <g transform="translate(600 770)" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif">
+    <text fill="#d8b069" font-size="20" letter-spacing="5">YOUR VENUE PHOTOGRAPH</text>
+  </g>
+</svg>

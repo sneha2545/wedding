@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1f0a"/>
+      <stop offset="0.55" stop-color="#5a3010"/>
+      <stop offset="1" stop-color="#1a0d04"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="40%" r="55%">
+      <stop offset="0" stop-color="#ffd791" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#d89645" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldStroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c89649" stop-opacity="0.0"/>
+      <stop offset="0.5" stop-color="#f1d490" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#c89649" stop-opacity="0.0"/>
+    </linearGradient>
+    <pattern id="petals" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="1.4" fill="#f1d490" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#petals)"/>
+  <rect width="1600" height="900" fill="url(#halo)"/>
+
+  <g transform="translate(800 450)" fill="none" stroke="url(#goldStroke)" stroke-width="1.5">
+    <path d="M -340 280 Q -340 -260 0 -340 Q 340 -260 340 280" stroke-width="2"/>
+    <path d="M -300 280 Q -300 -220 0 -300 Q 300 -220 300 280" opacity="0.6"/>
+    <path d="M -380 280 L 380 280" stroke-width="1"/>
+    <circle cx="0" cy="-300" r="9" fill="#f1d490"/>
+    <circle cx="0" cy="-300" r="20" fill="none" stroke="#f1d490" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <g transform="translate(800 540)" fill="#2a1608">
+    <path d="M -120 -10 C -150 -80 -90 -160 -50 -160 C -10 -160 30 -120 30 -60 C 30 -10 10 30 -10 30 C -40 30 -90 50 -100 80 C -130 130 -150 200 -150 260 L 60 260 C 70 200 70 130 50 80 C 30 30 0 0 -10 -40 C -20 -90 -60 -110 -80 -90 Z" opacity="0.85"/>
+    <path d="M 110 -30 C 110 -100 160 -180 200 -180 C 240 -180 280 -130 280 -70 C 280 -20 250 20 220 20 C 200 20 180 30 170 60 C 160 110 170 200 175 260 L 290 260 C 290 180 280 100 270 60 C 260 20 240 0 230 -40 C 220 -90 180 -120 150 -90 C 130 -70 120 -50 110 -30 Z" opacity="0.85"/>
+  </g>
+
+  <g fill="#f1d490" opacity="0.45">
+    <circle cx="240" cy="780" r="3"/>
+    <circle cx="320" cy="820" r="2"/>
+    <circle cx="1200" cy="800" r="2.5"/>
+    <circle cx="1320" cy="770" r="3"/>
+    <circle cx="1400" cy="820" r="2"/>
+    <circle cx="180" cy="720" r="2"/>
+    <circle cx="1420" cy="720" r="2.5"/>
+  </g>
+
+  <g transform="translate(800 825)" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif">
+    <text fill="#d8b069" font-size="22" letter-spacing="6">YOUR WEDDING PHOTOGRAPH</text>
+    <text y="38" fill="#8c6a30" font-size="14" letter-spacing="3" font-style="italic">replace couple-hero.webp in /public</text>
+  </g>
+</svg>

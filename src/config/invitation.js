@@ -70,7 +70,7 @@ export const invitation = {
     name: 'The Royal Heritage Palace',
     address: 'Civil Lines, Jaipur, Rajasthan 302006, India',
     mapsQuery: 'Royal Heritage Palace, Civil Lines, Jaipur, Rajasthan',
-    photo: 'venue.webp', // drop the file into /public
+    photo: 'venue.jpg', // drop the file into /public
   },
 
   // Photographs ──────────────────────────────────────────────────────
@@ -94,17 +94,17 @@ export const invitation = {
       alt: 'Aadhya and Vihaan — wedding portrait',
     },
     portrait: {
-      src: 'couple-portrait.webp',
+      src: 'couple-portrait.jpg',
       fallback: 'couple-portrait.svg',
       alt: 'Aadhya and Vihaan — couple portrait',
     },
     memory1: {
-      src: 'couple-photo-1.webp',
+      src: 'couple-photo-1.jpg',
       fallback: 'couple-memory-1.svg',
       alt: 'A memory together',
     },
     memory2: {
-      src: 'couple-photo-2.webp',
+      src: 'couple-photo-2.jpg',
       fallback: 'couple-memory-2.svg',
       alt: 'A memory together',
     },
